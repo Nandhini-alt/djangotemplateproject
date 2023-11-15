@@ -1,0 +1,15 @@
+<html>
+    {% load static %}
+    <head>
+        <title>It is my first template</title>
+        <link rel="stylesheet" href="{% static 'css/add.css' %}">
+    </head>
+    <body>
+        <h1>Separate HTML file is template</h1>
+            {{display_date}}
+            {{empname}}
+            {{greetings}}
+            <img src="{% static 'images/laptop.jpg' %}" alt="Flower Picture">
+
+    </body>
+</html>
